@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url('/fonts/BebasNeue-Regular.eot');
+    src: url('/fonts/BebasNeue-Regular.woff') format('woff2'),
+        url('/fonts/BebasNeue-Regular.woff2') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('/fonts/Quicksand-Light.eot'),
+        url('/fonts/Quicksand-Light.woff') format('woff2'),
+        url('/fonts/Quicksand-Light.woff2') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(227, 223, 223);
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333333;
+    font-family: 'Bebes';
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(12, 9, 9);
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-family: 'Quicksand';
+}
+
+p {
+    color: rgb(12, 9, 9);
+    font-size: 20px;
+    font-family: 'Quicksand';
+}
+
+img {
+    height: 20px;
+    width: auto ;
+}
+
+hr {
+    background-color: black;
+    height: 4px;
+    width: 100%;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.aside {
+    position: sticky;
+    top: 0;
+}
+
+.aside-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.aside-img {
+    height: 300px;
+    width: auto;
+}
+
+.aside-menu__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin:20px 0;
+}
+
+.info {
+    grid-row: 1/2;
+    grid-column: 2/4;
+}
+
+.info-wrapper {
+    margin-bottom: 5px;
+}
+
+.skills {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.skills-menu {
+    padding: 20px;
+}
+
+.skills-menu__standard-title {
+    margin-bottom: 10px;
+}
+
+.skills-menu__professional-title {
+   margin-bottom: 10px;
+}
+
+.hobbi {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.hobbies-menu {
+    padding: 20px;
+}
+
+.hobbi-menu__standard-title {
+    margin-bottom: 10px;
+}
+
+.hobbi-menu__professional-title {
+   margin-bottom: 10px;
+}
+
+.hobbies-menu__standard-item:last-child {
+    margin-bottom: 158px;
+}
+
+.education {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.education-menu {
+    padding: 20px;
+}
+
+.education-menu__standard-title {
+    margin-bottom: 10px;
+}
+
+.education-menu__professional-title {
+   margin-bottom: 10px;
+}
+
+
+.local {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.local-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.local-menu__item-link__img {
+    height: 60px;
+    width: auto;
+    margin-bottom: 49px;
+}
+
+
+
+
